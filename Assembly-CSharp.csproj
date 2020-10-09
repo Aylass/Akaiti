@@ -36,12 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\btProximoNivel.cs" />
      <Compile Include="Assets\Scripts\mecanicaScript.cs" />
-     <Compile Include="Assets\Scripts\playerScript.cs" />
-     <Compile Include="Assets\Scripts\btplayScript.cs" />
      <Compile Include="Assets\Scripts\btJogarNovamente.cs" />
      <Compile Include="Assets\Scripts\btVoltaraoMainMenu.cs" />
-     <Compile Include="Assets\Scripts\btProximoNivel.cs" />
+     <Compile Include="Assets\Scripts\playerScript.cs" />
+     <Compile Include="Assets\Scripts\btplayScript.cs" />
+     <Compile Include="Assets\Scripts\playerAnimation.cs" />
+     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -230,6 +232,12 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

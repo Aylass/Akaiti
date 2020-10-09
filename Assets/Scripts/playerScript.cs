@@ -5,15 +5,15 @@ using UnityEngine;
 public class playerScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float speed;
+    private float speed;
     public Transform player1;
     public Transform player2; 
+
     
-    private float x;
     // Start is called before the first frame update
     void Start()
     {
-        x = 0;
+        speed = 4;
     }
 
     // Update is called once per frame
@@ -27,10 +27,7 @@ public class playerScript : MonoBehaviour
 
         //Personagem 1 ------------------------------------------------------
         
-        float speedX = speed * Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.up, speedX * Time.deltaTime);
-        
-        /*//direita
+        //direita
         if(Input.GetKey(KeyCode.RightArrow)){//retorna TRUE enquanto a tecla -> esta precionada
             if(pos1.x <= 7){//para não sair da beirada
                 pos1.x += speed * Time.deltaTime;//para nao depender do rocessamento para se locomover
@@ -59,6 +56,6 @@ public class playerScript : MonoBehaviour
                 pos2.x += speed * Time.deltaTime;//para nao depender do rocessamento para se locomover
                 player2.transform.position = pos2;
             }
-        }*/
+        }
     }
 }
