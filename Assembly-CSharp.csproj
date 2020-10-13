@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\playerAnimation.cs" />
      <Compile Include="Assets\Scripts\btProximoNivel.cs" />
      <Compile Include="Assets\Scripts\mecanicaScript.cs" />
      <Compile Include="Assets\Scripts\btJogarNovamente.cs" />
      <Compile Include="Assets\Scripts\btVoltaraoMainMenu.cs" />
      <Compile Include="Assets\Scripts\playerScript.cs" />
      <Compile Include="Assets\Scripts\btplayScript.cs" />
-     <Compile Include="Assets\Scripts\playerAnimation.cs" />
+     <Compile Include="Assets\Scripts\player2Animation.cs" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
