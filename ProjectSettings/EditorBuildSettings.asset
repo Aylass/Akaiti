@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: c2c1c5356fadd7641b18c93da4a9bd45
   - enabled: 1
-    path: Assets/Scenes/FimdeJogo.unity
-    guid: 5ad6c92a8d7766a4f87b2baea0472cec
+    path: Assets/Scenes/Level2.unity
+    guid: b9f33f04861514440b99b474418f627c
   m_configObjects: {}
