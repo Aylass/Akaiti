@@ -44,9 +44,13 @@
      <Compile Include="Assets\Scripts\btJogarNovamente.cs" />
      <Compile Include="Assets\Scripts\btVoltaraoMainMenu.cs" />
      <Compile Include="Assets\Scripts\playerScript.cs" />
-     <Compile Include="Assets\Scripts\btplayScript.cs" />
-     <Compile Include="Assets\Scripts\mecanica2Script.cs" />
      <Compile Include="Assets\Scripts\playerPulo.cs" />
+     <Compile Include="Assets\Scripts\mecanica2Script.cs" />
+     <Compile Include="Assets\Scripts\btplayScript.cs" />
+     <Compile Include="Assets\Scripts\playerScript3.cs" />
+     <Compile Include="Assets\Scripts\Camera1.cs" />
+     <Compile Include="Assets\Scripts\CamerasController.cs" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
