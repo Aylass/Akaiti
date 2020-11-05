@@ -205,6 +205,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &157862378 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8452824089095817161, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+  m_PrefabInstance: {fileID: 1623218610}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e8dd48c68e85342a6b2eb401357ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &219741094
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,9 +293,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasFim: {fileID: 1917208208}
   canvasGanhou: {fileID: 1683570247}
-  blocoGelo: {fileID: 0}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  blocoGelo: {fileID: 2063541962}
+  player1: {fileID: 427479836}
+  player2: {fileID: 249694403}
 --- !u!1 &249694398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7630718849671417467, guid: c4a402ad02b70f54da67dfea26f8df1c, type: 3}
@@ -481,7 +492,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.2027507
+  orthographic size: 3.4729545
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -505,7 +516,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322676169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -0.41, z: -10}
+  m_LocalPosition: {x: -2.8, y: -0.41, z: -10}
   m_LocalScale: {x: 1.0386289, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1412,9 +1423,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7832004383658596662, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1204724922}
+    - target: {fileID: 7832004383658596662, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VoltaraoMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832004383798036776, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1957809523}
+    - target: {fileID: 7832004383798036776, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JogarNovamente
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832004384083079680, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+      propertyPath: level
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7832004384436716538, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
       propertyPath: m_Name
       value: FimdeJogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832004384436716538, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7832004384436716539, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1462,6 +1497,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+--- !u!1 &1160365750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1160365753}
+  - component: {fileID: 1160365752}
+  - component: {fileID: 1160365751}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1160365751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160365750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1160365752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160365750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1160365753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160365750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204724922 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7832004384661810447, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+  m_PrefabInstance: {fileID: 1132225227}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e8dd48c68e85342a6b2eb401357ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1401063878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,6 +1708,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8452824087889972132, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 157862378}
+    - target: {fileID: 8452824087889972132, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VoltaraoMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452824089323136132, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1853223457}
+    - target: {fileID: 8452824089323136132, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ProximoNivel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452824089347726924, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+      propertyPath: level
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8452824089354399404, guid: e2075568f5f2a264093443ece80f616e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.3017499
@@ -1643,6 +1775,10 @@ PrefabInstance:
     - target: {fileID: 8452824089354399407, guid: e2075568f5f2a264093443ece80f616e, type: 3}
       propertyPath: m_Name
       value: Ganhou
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452824089354399407, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2075568f5f2a264093443ece80f616e, type: 3}
@@ -1766,6 +1902,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1853223457 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8452824089347726924, guid: e2075568f5f2a264093443ece80f616e, type: 3}
+  m_PrefabInstance: {fileID: 1623218610}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a457953c15400b4fa6623be2bceedfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1861214945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +2000,144 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7832004384436716538, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
   m_PrefabInstance: {fileID: 1132225227}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1944621997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944621999}
+  - component: {fileID: 1944621998}
+  m_Layer: 0
+  m_Name: Musica
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1944621998
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944621997}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bc9d5af50dcb8c447a66f6a42e636201, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1944621999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944621997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.933184, y: -1.1831026, z: -12.48417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1957809523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7832004384083079680, guid: c629ca1b1c7aaf04caf391e62b5d1c8c, type: 3}
+  m_PrefabInstance: {fileID: 1132225227}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9b2686f9fb8b644a85efc2fa9ec23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2013769992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,9 +2664,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasFim: {fileID: 1917208208}
   canvasGanhou: {fileID: 1683570247}
-  blocoGelo: {fileID: 0}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  blocoGelo: {fileID: 2063541962}
+  player1: {fileID: 427479836}
+  player2: {fileID: 249694403}
 --- !u!61 &2096751210
 BoxCollider2D:
   m_ObjectHideFlags: 0
