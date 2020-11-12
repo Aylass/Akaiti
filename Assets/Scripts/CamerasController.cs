@@ -8,6 +8,7 @@ public class CamerasController : MonoBehaviour
     public GameObject cameraEncontro;
     public GameObject camera1;
     public GameObject camera2;
+    public AudioSource musica;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +21,11 @@ public class CamerasController : MonoBehaviour
     void Update()
     {
          Vector3 posicao = player1.transform.position;
-         if(posicao.x >= -1.47){//quando eles se encontrarem
+         if(posicao.x >= -0.37){//quando eles se encontrarem
             cameraEncontro.SetActive(true);
             camera1.SetActive(false);
             camera2.SetActive(false);
+            musica.spatialBlend = 0;
          }
         
     }

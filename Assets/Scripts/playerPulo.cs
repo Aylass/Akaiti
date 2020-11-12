@@ -22,8 +22,8 @@ public class playerPulo : MonoBehaviour
         //pulo dos personagens
         if(pulo && Input.GetKey(KeyCode.UpArrow)){
             //Debug.Log("Pulo");
-            play1.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,100));
-            play2.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,100));
+            play1.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,110));
+            play2.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,110));
             pulo = false;
         }
     }
