@@ -1,0 +1,2 @@
+# Akaiti
+Jogo desenvolvindo na cadeira de Projeto e Desenvolvimento de Jogos da PUCRS. A ideia da criação do jogo passada pelo professor era de escolha dos alunos. Nesse trabalho eu e meu colega Lucas Augusto Tavares criamos um jogo 2d de plataforma. A história vivenciada no jogo é referente a uma história antiga japonesa(AKAI IT) que fala sobre a ligação de duas pessoas pelo destino, possuindo uma fita vermelha os ligando.
